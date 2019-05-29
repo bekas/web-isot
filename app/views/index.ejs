@@ -1,0 +1,15 @@
+<% include header %>
+
+  <h2>Статьи в базе:</h2>
+  <% for(var i = 0; i < articles.length; i++) { %>
+    <div>
+      <p> <b>Название:</b> <%-articles[i].title %></p>
+      <p> <b>Ссылка:</b> <a><%-articles[i].url %></a></p>
+      <p> <b>Текст статьи:</b> <%-articles[i].text %></p>
+    </div>
+    <br/>
+  <% } %>
+
+  <a href="http://localhost:3000/add_article">Добавить новую статью</a>
+
+<% include footer %>

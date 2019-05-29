@@ -1,0 +1,25 @@
+<% include header %>
+
+  <h1>Добавить новую статью</h1>
+  <form action="/add_article" method="POST">
+    <p>
+        <label>Название</label>
+        <input type="text" name="title">
+    </p>
+    <p>
+      <label>Ссылка</label>
+      <input type="text" name="url">
+    </p>
+    <p>
+      <label>Текст статьи</label>
+      <input type="text" name="text">
+    </p>
+    <p>
+      <input type="submit">
+    </p>
+  </form>
+
+  <a href="http://localhost:3000/">Просмотреть все статьи из базы</a>
+
+
+<% include footer %>
