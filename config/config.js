@@ -18,7 +18,7 @@ const config = {
       name: 'expressproject'
     },
     port: process.env.PORT || 3000,
-    db: 'postgres://localhost/expressproject-test'
+    db: 'postgres://ezqmuomn:woI-J5Ok6UQlVZ1S-YiTtkKxOA_3MXwg@balarama.db.elephantsql.com:5432/ezqmuomn'
   },
 
   production: {
@@ -27,7 +27,7 @@ const config = {
       name: 'expressproject'
     },
     port: process.env.PORT || 3000,
-    db: 'postgres://localhost/expressproject-production'
+    db: 'postgres://ezqmuomn:woI-J5Ok6UQlVZ1S-YiTtkKxOA_3MXwg@balarama.db.elephantsql.com:5432/ezqmuomn'
   }
 };
 
